@@ -127,7 +127,6 @@ public class ChineseScanner {
 	      } else if(this.ch == 34) {
 	         this.takeIt();
 
-	         // revise by qyou@nlpr.ia.ac.cn
 //	         while(this.ch >= 32 && this.ch <= 126 && this.ch != 34) {
 //	            this.takeIt();
 //	         }
