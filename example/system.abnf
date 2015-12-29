@@ -1,0 +1,6 @@
+clock = name hour sep min [sep sec]; # second optional
+name = ["中文"]"时间";
+hour = (%x30-31 %x30-39) / (%x32 %x30-33);
+min = %x30-35 %x30-39;
+sec = %x30-35 %x30-39;
+sep = ":";
